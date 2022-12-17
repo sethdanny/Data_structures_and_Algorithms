@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def locate_card(cards=[], query):
+def locate_card(cards, query):
     position = 0
 
     while position < len(cards):
@@ -7,4 +7,4 @@ def locate_card(cards=[], query):
             return position
         position += 1
 
-        return -1
+    return -1
